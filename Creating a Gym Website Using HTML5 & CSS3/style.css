@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.pageItem{
+	height: 100vh;
+    background-image: url(img7.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.gymeManu{
+	width:700px;
+	height:100px;
+}
+.allManu{
+	background: red;
+	height: 80px;
+	width: 100px;
+}

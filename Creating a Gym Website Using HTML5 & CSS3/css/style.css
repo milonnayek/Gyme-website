@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/img.jpg);
+    font-family: 'Balsamiq Sans', cursive;
+}
+header.header {
+    height: 91px;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    width: 116px;
+}
+.left img {
+    width: 31px;
+    filter: invert(51%);
+    padding: 0px 0px;
+}
+.logoName {
+    font-size: 13px;
+    text-align: center;
+    color: #2be891;
+    border: 2px solid #0d795e;
+    width: 81px;
+    margin-top: 26px;
+    float: right;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.mid {
+    display: block;
+    width: 58%;
+    margin: -16px auto;
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 8px;
+    display: inline-block;
+}
+input.call_BTN {
+    background: linear-gradient(to right, #b6e358, #38b143);
+    border: none;
+    border-radius: 6px;
+    height: 42px;
+    width: 177px;
+    margin-top: 21px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+input.call_BTN:hover {
+    color: white;
+}
+ul.nevbar {
+    height: 38px;
+    padding-top: 36px;
+}
+.nevbar li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+}
+.nevbar li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    
+}
+.nevbar li a:hover {
+    text-decoration: underline;
+    color: #28a745;
+}
+dov.hero_bodybulder {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 262px;
+    width: 116px;
+}
+.hading_healthy {
+    color: white;
+}
+.hading_healthy {
+    width: 467px;
+}
+.hading_healthy h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+}
+input.Front_redmore {
+    background: black;
+    color: #44cc61;
+    border: #1decc2;
+    height: 47px;
+    width: 175px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+input.Front_redmore:hover{
+    background: linear-gradient(to right, #b6e358, #38b143);
+    border-radius: 6px;
+    color: black;
+    text-transform: uppercase;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
